@@ -3,7 +3,7 @@ import csv
 import numpy as np
 
 
-def disteclud(vec1, vec2):  # 定义一个欧式距离的函数
+def disteclud(vec1, vec2):  # calculate Euclidean Distance
     return np.sqrt(np.sum(np.power(vec1 - vec2, 2)))
 
 
